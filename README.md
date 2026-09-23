@@ -1,56 +1,66 @@
-# 💳 Fraud Transaction Detection using Deep Learning
+💳 Fraud Transaction Detection
 
-A Deep Learning-based web application that detects potentially fraudulent credit card transactions using a trained neural network model.
+A Machine Learning-based system that detects fraudulent financial transactions by analyzing transaction patterns and classifying them as legitimate or fraudulent.
 
-The project uses transaction data, preprocessing techniques, and a Keras/TensorFlow deep learning model to classify transactions as **legitimate or fraudulent**.
+🚀 Features
 
----
+- 🔍 Transaction data analysis
+- 🧹 Data preprocessing
+- ⚙️ Feature engineering
+- 🤖 Machine Learning classification
+- 📊 Model evaluation
+- 🚨 Fraud prediction
 
-## 📌 Project Overview
+🧠 Workflow
 
-Credit card fraud is a major problem in the financial industry. Traditional rule-based systems may struggle to identify complex and evolving fraud patterns.
-
-This project uses **Deep Learning** to learn patterns from historical transaction data and predict whether a new transaction is:
-
-- ✅ Legitimate Transaction
-- 🚨 Fraudulent Transaction
-
-The trained model is integrated into a **Flask web application**, allowing users to enter transaction details and receive a fraud prediction.
-
----
-
-## 🎯 Objectives
-
-- Detect fraudulent credit card transactions using Deep Learning.
-- Preprocess and normalize transaction features.
-- Train a neural network using historical transaction data.
-- Evaluate the performance of the trained model.
-- Deploy the trained model through a Flask web application.
-- Provide a simple interface for real-time fraud prediction.
-
----
-
-## 🧠 Machine Learning / Deep Learning Approach
-
-The project follows the following pipeline:
-
-```text
-Transaction Dataset
-        ↓
-Data Cleaning
-        ↓
+Transaction Data
+      ↓
 Data Preprocessing
-        ↓
-Feature Scaling
-        ↓
-Train / Test Split
-        ↓
-Deep Learning Model
-        ↓
-Model Evaluation
-        ↓
-Save Trained Model
-        ↓
-Flask Web Application
-        ↓
-Fraud Prediction
+      ↓
+Feature Engineering
+      ↓
+ML Model
+      ↓
+Evaluation
+      ↓
+Fraud / Legitimate
+
+🛠️ Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+📊 Evaluation
+
+The model is evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+⚙️ Run Locally
+
+git clone https://github.com/Adhithiya-77/fraud-transaction-detection-.git
+cd fraud-transaction-detection-
+pip install -r requirements.txt
+python app.py
+
+🔮 Future Improvements
+
+- Real-time fraud detection
+- Interactive dashboard
+- Explainable AI
+- Advanced fraud-risk scoring
+- Model optimization
+
+👨‍💻 Author
+
+Adhithiya — AI & Data Science Student
+
+"GitHub" (https://github.com/Adhithiya-77) • "LinkedIn" (https://www.linkedin.com/in/adhithiya-v-a9330632b/) • "LeetCode" (https://leetcode.com/u/Adhithiya_/)
